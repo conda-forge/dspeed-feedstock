@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: dspeed
-  version: 1.9.0
+  version: 2.0.0
   python_min: '3.9'
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/dspeed-${{ version }}.tar.gz
-  sha256: 9dbbf453f484ad1b9142516f1ab4168c2e6fd50ab8e850878982f55460d1f429
+  sha256: a04f99d1e4419f48f2822cbb8ac98afc6f19dd55c44c8fb3730a51fb64faf7f7
 
 build:
   number: 0
@@ -30,7 +30,7 @@ requirements:
     - colorlog
     - h5py >=3.2
     - iminuit
-    - legend-pydataobj >=1.5.0a1
+    - legend-pydataobj >=1.16.0
     - matplotlib-base
     - numba !=0.53,!=0.54.*
     - numpy
