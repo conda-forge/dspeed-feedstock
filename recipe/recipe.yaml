@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: dspeed
-  version: "2.0.1"
+  version: 2.0.2
   python_min: '3.9'
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/dspeed-${{ version }}.tar.gz
-  sha256: 5d8eaca030abd96022606bd38dca7350b36f203a7247753b8202cd4f2d4fc071
+  sha256: 78bd633e773d436536dbfb95723e25b254811442ecbec9dfeecd3e6467dcd062
 
 build:
   number: 0
@@ -40,6 +40,7 @@ requirements:
     - pyyaml
     - scipy
     - tqdm >=4.27
+    - dbetto
 tests:
   - python:
       imports:
