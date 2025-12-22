@@ -2,8 +2,8 @@ schema_version: 1
 
 context:
   name: dspeed
-  version: 2.0.2
-  python_min: '3.9'
+  version: 2.1.0
+  python_min: '3.10'
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/dspeed-${{ version }}.tar.gz
-  sha256: 78bd633e773d436536dbfb95723e25b254811442ecbec9dfeecd3e6467dcd062
+  sha256: 562e39ad88a3c96d2f0f921ab395db684b0621b4cf53419b25912d38c98f2a5d
 
 build:
   number: 0
@@ -33,7 +33,7 @@ requirements:
     - legend-pydataobj >=1.16.0
     - matplotlib-base
     - numba !=0.53,!=0.54.*
-    - numpy
+    - numpy >2
     - parse
     - pint
     - pyarrow
