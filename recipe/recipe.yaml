@@ -3,7 +3,7 @@ schema_version: 1
 context:
   name: dspeed
   version: 2.1.0
-  python_min: '3.9'
+  python_min: '3.10'
 
 package:
   name: ${{ name|lower }}
