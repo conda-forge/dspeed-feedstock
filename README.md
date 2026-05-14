@@ -163,6 +163,3 @@ Feedstock Maintainers
 * [@gipert](https://github.com/gipert/)
 * [@matthewfeickert](https://github.com/matthewfeickert/)
 
-
-<!-- dummy commit to enable rerendering -->
-
