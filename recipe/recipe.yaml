@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: dspeed
-  version: "2.1.4"
+  version: "2.2.0"
   python_min: '3.10'
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/dspeed-${{ version }}.tar.gz
-  sha256: dc6c9013b48431c6a282bb50dfce9bdcf444e25b7fbc54d08fbd9a602641408e
+  sha256: 4ad33bd135479192b83e230a93a71f3ebffadab59740a12995546cb590de7b89
 
 build:
   number: 0
